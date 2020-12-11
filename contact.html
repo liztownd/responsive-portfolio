@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    
+    <!-- Link to Bootstrap css -->
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    <!-- Link to javascript -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
   </head>
-<body style="background-image: url(assets/images/background.jpg);">
+
+    <!-- Background image - I did need to use an inline style tag to get the background image - it's the only personal style tag in the whole page! -->
+
+  <body style="background-image: url(assets/images/background.jpg);">
+
+  <!-- Header and Navigation -->
 
   <div class="container-fluid p-0">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -31,7 +42,9 @@
             <div>
              <h1 class="text-info text-monospace p-4">Contact</h1>
              <hr class="w-75">
+
         <!-- form -->
+
         <form class="p-2">
             <div class="form-group">
                 <label for="Name">Name</label>
@@ -51,7 +64,9 @@
             </div>
       </main>
 
-      <footer class="fixed-bottom">
+      <!-- Footer - I tried making it fixed but it was not aesthetically pleasing so I took it out -->
+
+      <footer>
         <div class="p-1 bg-info"></div>
         <div class="p-3 bg-secondary text-white">
             Copyright &#169; 2020 Liz Townsend
