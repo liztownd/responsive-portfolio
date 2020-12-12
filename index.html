@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
 
   <!-- Link to Bootstrap file -->
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    
-    <!-- Link to Javascript file -->
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-  </head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-  <!-- Background image - I did need to use an inline style tag to get the background image - it's the only personal style tag in the whole page! -->
+  <!-- Link to Javascript file -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+</head>
+
+<!-- Background image - I did need to use an inline style tag to get the background image - it's the only personal style tag in the whole page! -->
 
 <body style="background-image: url(assets/images/background.jpg);">
 
@@ -25,76 +29,89 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
 
-    <!-- Header -->
+        <!-- Header -->
 
         <span class="navbar-brand h2 bg-info p-3 text-white text-monospace">Liz Townsend</span>
-        
+
         <!-- Navigation  -->
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <ul class="navbar-nav">
-           <li class="navbar-item text-sm-end">
-             <a class="nav-link active" aria-current="page" href="index.html">About</a>
-            </li class="navbar-item text-sm-end"> 
-            <li>
-             <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li class="navbar-item text-sm-end">
-            <li>
-             <a class="nav-link" href="contact.html">Contact</a>
-            </li>
+          <div class="navbar-nav ml-auto d-flex">
+            <ul class="navbar-nav align-items-end">
+              <li class="navbar-item" >
+                <a class="nav-link active" aria-current="page" href="index.html">About</a>
+              </li >
+              <li class="navbar-item justify-content-end ">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li >
+            <li class="navbar-item justify-content-end ">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </nav>
 
-<!-- Main content -->
-    
-   <main class="container-lg bg-light mx-auto my-5 overflow-auto">
-     <div class="row">
-       <div class="col-12">
-        <h1 class="text-info text-monospace p-4">About Me</h1>
-       </div>
-       <hr class="w-75">
-       <div class="row">
-         <div class="col-3">
-          <img src="assets/images/Liz.jpg" class="m-4 img-fluid" alt="Liz Townsend">
+    <!-- Main content -->
+
+    <main class="container-lg bg-light mx-auto my-5 overflow-auto">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-info text-monospace p-4">About Me</h1>
         </div>
-        <div class="col-8 m-4">
-          <p>Liz Townsend holds a Bachelor's Degree in Studio Art from the University of Missouri, Kansas City, with an emphasis in Graphic Design and Photography. While at UMKC, she also studied in the newly formed film department under Daven Gee and Tom Poe, while finishing her degree in the Art Department.
-          </p>
-          <p>She has a daughter and 2 cats and volunteers with Girl Scouts and the PTA. In her spare time she likes to knit and read.
-          </p>
-          <p>Some of her prior Web designs include <a href="http://furologykc.com">Furology</a>, <a href="http://www.ipmskansascity.com">Kansas City IPMS</a> and <a href="http://liztowndesign.com">Liz Town Design</a>.
-           </p>
-           <p>She can be reached at <a href="mailto:liztown@gmail.com">liztown@gmail.com</a>, GitHub username: liztownd.</p>
-          
-          
-          <!-- Social Media Links-->
-           <p>
-             <a href="http://facebook.com/liz.townsend.927" target="_blank"> <img src="assets/images/fb.png" alt="Facebook Icon" width="30px" class="m-2"> </a>
-             <a href="mailto:liztown@gmail.com"> <img src="assets/images/email.png" alt="Email Icon" width="30px" class="m-2"> </a>
-             <a href="http://https://github.com/liztownd" target="_blank"> <img src="assets/images/gh.png" alt="GitHub Icon" width="30px" class="m-2"> </a>
-             <a href="http://twitter.com/liztownmo" target="_blank"> <img src="assets/images/twitter.png" alt="Twitter Icon" width="30px" class="m-2"> </a> 
-             <a href="http://https://www.linkedin.com/in/elizabeth-townsend-84b878169/" target="_blank"> <img src="assets/images/li.png" alt="Linked In Icon" width="30px" class="m-2"> </a> 
-     
+        <hr class="w-75">
+        <div class="row">
+          <div class="col-3">
+            <img src="assets/images/Liz.jpg" class="m-4 img-fluid" alt="Liz Townsend">
+          </div>
+          <div class="col-8 m-4">
+            <p>Liz Townsend holds a Bachelor's Degree in Studio Art from the University of Missouri, Kansas City, with
+              an emphasis in Graphic Design and Photography. While at UMKC, she also studied in the newly formed film
+              department under Daven Gee and Tom Poe, while finishing her degree in the Art Department.
+            </p>
+            <p>She has a daughter and 2 cats and volunteers with Girl Scouts and the PTA. In her spare time she likes to
+              knit and read.
+            </p>
+            <p>Some of her prior Web designs include <a href="http://furologykc.com">Furology</a>, <a
+                href="http://www.ipmskansascity.com">Kansas City IPMS</a> and <a href="http://liztowndesign.com">Liz
+                Town Design</a>.
+            </p>
+            <p>She can be reached at <a href="mailto:liztown@gmail.com">liztown@gmail.com</a>, GitHub username:
+              liztownd.</p>
+
+
+            <!-- Social Media Links-->
+            <p>
+              <a href="http://facebook.com/liz.townsend.927" target="_blank"> <img src="assets/images/fb.png"
+                  alt="Facebook Icon" width="30px" class="m-2"> </a>
+              <a href="mailto:liztown@gmail.com"> <img src="assets/images/email.png" alt="Email Icon" width="30px"
+                  class="m-2"> </a>
+              <a href="http://https://github.com/liztownd" target="_blank"> <img src="assets/images/gh.png"
+                  alt="GitHub Icon" width="30px" class="m-2"> </a>
+              <a href="http://twitter.com/liztownmo" target="_blank"> <img src="assets/images/twitter.png"
+                  alt="Twitter Icon" width="30px" class="m-2"> </a>
+              <a href="http://https://www.linkedin.com/in/elizabeth-townsend-84b878169/" target="_blank"> <img
+                  src="assets/images/li.png" alt="Linked In Icon" width="30px" class="m-2"> </a>
+
             </p>
           </div>
-       </div>
-     </div>
-   </main>
-   <!-- Footer - I tried making it fixed but it was not aesthetically pleasing so I took it out -->
-   <footer>
-    <div class="p-1 bg-info"></div>
-    <div class="p-3 bg-secondary text-white">
+        </div>
+      </div>
+    </main>
+    <!-- Footer - I tried making it fixed but it was not aesthetically pleasing so I took it out -->
+    <footer>
+      <div class="p-1 bg-info"></div>
+      <div class="p-3 bg-secondary text-white">
         Copyright &#169; 2020 Liz Townsend
 
-    </div>
-</footer>
-</div>
+      </div>
+    </footer>
+  </div>
 </body>
+
 </html>
